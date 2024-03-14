@@ -22,5 +22,11 @@ namespace PROJE_SQL_DB
             FrmKategoriler fr = new FrmKategoriler();
             fr.Show();
         }
+
+        private void BtnMusteriler_Click(object sender, EventArgs e)
+        {
+            FrmMusteriler fr = new FrmMusteriler();
+            fr.Show();
+        }
     }
 }

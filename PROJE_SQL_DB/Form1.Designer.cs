@@ -324,6 +324,7 @@
             // 
             // BtnMusteriler
             // 
+            this.BtnMusteriler.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMusteriler.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMusteriler.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnMusteriler.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -333,6 +334,7 @@
             this.BtnMusteriler.TabIndex = 2;
             this.BtnMusteriler.Text = "Müşteriler";
             this.BtnMusteriler.UseVisualStyleBackColor = true;
+            this.BtnMusteriler.Click += new System.EventHandler(this.BtnMusteriler_Click);
             // 
             // pictureBox1
             // 
