@@ -23,12 +23,15 @@ namespace PROJE_SQL_DB
         {
             //listeleme yaparken bu komutları kullanmayabiliriz
             //bgl.Open();
+            
             SqlCommand komut = new SqlCommand("Select * from TBLKATEGORI", bgl);
             SqlDataAdapter da = new SqlDataAdapter(komut);
             DataTable dt = new DataTable();
             da.Fill(dt);
             dataGridView1.DataSource = dt;
             //bgl.Close();
+
+         
         }
 
         private void BtnKaydet_Click(object sender, EventArgs e)
